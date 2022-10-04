@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Apple Garamond;
+    src: url(fonts/apple_garamond/AppleGaramond.ttf);
+  }
+  @font-face {
+    font-family: Apple Garamond;
+    src: url(fonts/apple_garamond/AppleGaramond-Bold.ttf);
+    font-weight: bold;
+  }
+
+body {
+    font-family:"Apple Garamond", serif;
+    background-color: #fffcef;
+    color: #343434;
+    font-size: 14px;
+}
+
+.line-header {
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 3vh;
+}
+
+.blurbs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.flex-item {
+    background-color: #99e0de;
+    margin: .7vw;
+    padding: 1.2vw;
+    border: 1.5px #343434 solid;
+    border-radius: 20px;
+    max-width: 40vw;
+}
+.flex-item-plain {
+    margin: .7vw;
+    padding: 1.2vw;
+    border-radius: 20px;
+    max-width: 20rem;
+}
+.customIndent {
+    padding-left: 3em;
+}
+.content {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h1 {
+    font-family: "Helvetica", sans-serif;
+    letter-spacing: -0.08em;
+}
